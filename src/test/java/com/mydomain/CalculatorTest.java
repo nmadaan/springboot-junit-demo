@@ -9,7 +9,7 @@ public class CalculatorTest {
     @Test
     public void twoAndThreeIsFive() throws Exception {
         final long result = new Calculator().add(2, 3);
-        assertThat(result, is(4L));
+        assertThat(result, is(5L));
     }
 
     @Test
